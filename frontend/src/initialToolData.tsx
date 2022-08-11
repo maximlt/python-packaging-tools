@@ -30,7 +30,13 @@ const _initialToolData: Tool[] = [
     dependsOn: ['pip', 'venv'],
   },
   {
-    features: ['package manager', 'ecosystem'],
+    features: [
+      'package manager',
+      'ecosystem',
+      'manual virtual environment creation',
+      'virtual environment management',
+      'dependency resolver',
+    ],
     name: 'conda',
     toolDescription:
       'Conda is a cross-platform, language-agnostic binary package manager. It is the package manager used by Anaconda installations, but it may be used for other systems as well. Conda makes environments first-class citizens, making it easy to create independent environments even for C libraries.',
